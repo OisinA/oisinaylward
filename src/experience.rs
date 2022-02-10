@@ -43,7 +43,7 @@ pub fn experience_list(ExperienceProps { experiences }: &ExperienceProps<'static
         .collect();
 
     html! {
-        <div class="bg-white w-full" id="experience">
+        <div class="bg-white w-full mb-10" id="experience">
             <h1 class="text-3xl mb-5 border-b-2 pb-2">{ "🚀 Experience"}</h1>
 
             <h2 class="text-xl pb-2">{ "Present" }</h2>
