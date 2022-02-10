@@ -24,14 +24,14 @@ lazy_static! {
         },
         Experience {
             title: "Ex-Officio",
-            company: "Netsoc",
+            company: "UCC Netsoc",
             company_link: "https://netsoc.co",
             start_date: Utc.ymd(2021, 6, 1),
             end_date: None,
         },
         Experience {
             title: "Chairperson",
-            company: "Netsoc",
+            company: "UCC Netsoc",
             company_link: "https://netsoc.co",
             start_date: Utc.ymd(2020, 6, 1),
             end_date: Some(Utc.ymd(2021, 5, 31)),
@@ -45,11 +45,18 @@ lazy_static! {
         },
         Experience {
             title: "SysAdmin",
-            company: "Netsoc",
+            company: "UCC Netsoc",
             company_link: "https://netsoc.co",
             start_date: Utc.ymd(2018, 6, 1),
             end_date: Some(Utc.ymd(2020, 5, 31)),
         },
+        Experience {
+            title: "Junior Software Developer",
+            company: "CloudCIX",
+            company_link: "https://www.cloudcix.com/",
+            start_date: Utc.ymd(2019, 6, 1),
+            end_date: Some(Utc.ymd(2019, 8, 31)),
+        }
     ];
 }
 
