@@ -3,7 +3,7 @@ use yew::prelude::*;
 #[function_component(Contact)]
 pub fn contact() -> Html {
     html! {
-        <div class="bg-white dark:bg-slate-900 w-full" id="experience">
+        <div class="bg-white w-full" id="experience">
             <h1 class="text-3xl mb-5 border-b-2 pb-2">{ "💻 Contact"}</h1>
             <div class="flex">
                 <a href="https://twitter.com/oisinaylward" class="p-2">
