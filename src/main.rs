@@ -27,7 +27,7 @@ lazy_static! {
             company: "UCC Netsoc",
             company_link: "https://netsoc.co",
             start_date: Utc.ymd(2021, 6, 1),
-            end_date: None,
+            end_date: Utc.ymd(2022, 5, 31),
         },
         Experience {
             title: "Chairperson",
