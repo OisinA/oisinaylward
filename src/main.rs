@@ -16,7 +16,7 @@ mod experience;
 lazy_static! {
     static ref EXPERIENCE: Vec<Experience<'static>> = vec![
         Experience {
-            title: "Software Development Engineer in DevOps",
+            title: "Software Development Engineer I",
             company: "Workday",
             company_link: "https://www.workday.com/",
             start_date: Utc.ymd(2021, 9, 27),
